@@ -33,8 +33,8 @@ class WindowClass(QMainWindow, form_class) :
         # gtfile_list = [file for file in gtfile_list if file.endswith(".txt")]
         # for gtfile in gtfile_list:
         #     detfile = gtfile
-        gtfile = 'ICDAR03_64.txt'
-        detfile = 'ICDAR03_64.txt'
+        gtfile = 'ICDAR03_227.txt'
+        detfile = 'ICDAR03_227.txt'
         gtbox_list = fileio.read_file('./gt/'+ gtfile)
         detbox_list = fileio.read_file('./det/'+ detfile)
 
@@ -73,22 +73,48 @@ class WindowClass(QMainWindow, form_class) :
 
         tp_list = []
         fp_list = []
+        nfp_list = []
+
         fn_list = []
+
         overlab_list = []
 
-        for gt_idx, gt in enumerate(evalbox):
+        for gt_idx, det_eval_list in enumerate(evalbox):
             # print(len(np.where(gt > iou_th)[0]))
             
-            gtbox_list[gt_idx] = ''
-
-            if len(np.where(gt > iou_th)[0]) > 1: #해당 GT에 2개 이상 det 물림
-                np.where(gt > iou_th)[0]
-                pass
+            # gtbox_list[gt_idx] = ''
+        
+            det_TP_idx_list = np.where(det_eval_list > iou_th)[0]
             
-            print(gtbox_list)
+            #FN
+            if len(det_TP_idx_list) == 0:
+                fn_list.append(gtbox_list[gt_idx])
+            
+            #overlab
+            if len(det_TP_idx_list) > 1:
+                for det_TP_idx in det_TP_idx_list:
+                    self.tableWidget.item(gt_idx, det_TP_idx).setForeground(QBrush(QColor(0, 0, 255)))
+                    overlab_list.append(detbox_list[det_TP_idx])
+            #TP
+            if len(det_TP_idx_list) == 1:
+                self.tableWidget.item(gt_idx, det_TP_idx_list[0]).setForeground(QBrush(QColor(0, 255, 0)))
+                tp_list.append(detbox_list[det_TP_idx_list[0]])
+            
+            print(nfp_list)
+            # np.where(det_eval_list > iou_th)
+            # gt_list[gt_idx] = ''
 
-            len_gtbox_list=len([x for x in gtbox_list if x != ''])
-            print(len_gtbox_list)
+                # self.tableWidget.item(gt_idx, det_TP_idx).setBackground(Qt.gray)
+           
+        print(tp_list)
+        print(fn_list)
+        print(overlab_list)
+
+
+            # print(gtbox_list)
+
+            # len_gtbox_list=len([x for x in gtbox_list if x != ''])
+            # print(len_gtbox_list)
 
 
             # det_eval_list = [x for x in gt if x > iou_th]

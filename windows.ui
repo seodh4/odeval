@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1025</width>
-    <height>700</height>
+    <width>1231</width>
+    <height>754</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>20</y>
+      <x>1130</x>
+      <y>10</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -30,8 +30,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>60</y>
+      <x>1140</x>
+      <y>40</y>
       <width>56</width>
       <height>12</height>
      </rect>
@@ -46,15 +46,17 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>400</y>
-      <width>251</width>
+      <x>890</x>
+      <y>450</y>
+      <width>331</width>
       <height>241</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>6</pointsize>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -88,7 +90,7 @@
      <bool>true</bool>
     </property>
     <property name="gridStyle">
-     <enum>Qt::SolidLine</enum>
+     <enum>Qt::CustomDashLine</enum>
     </property>
     <property name="wordWrap">
      <bool>false</bool>
@@ -100,13 +102,13 @@
      <bool>true</bool>
     </attribute>
     <attribute name="horizontalHeaderDefaultSectionSize">
-     <number>5</number>
+     <number>7</number>
     </attribute>
     <attribute name="horizontalHeaderHighlightSections">
      <bool>true</bool>
     </attribute>
     <attribute name="horizontalHeaderMinimumSectionSize">
-     <number>5</number>
+     <number>7</number>
     </attribute>
     <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
      <bool>false</bool>
@@ -118,14 +120,33 @@
      <bool>false</bool>
     </attribute>
     <attribute name="verticalHeaderDefaultSectionSize">
-     <number>5</number>
+     <number>7</number>
     </attribute>
     <attribute name="verticalHeaderHighlightSections">
      <bool>true</bool>
     </attribute>
     <attribute name="verticalHeaderMinimumSectionSize">
-     <number>5</number>
+     <number>7</number>
     </attribute>
+   </widget>
+   <widget class="QLabel" name="label_screen">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>861</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(218, 218, 218);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -133,7 +154,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1025</width>
+     <width>1231</width>
      <height>21</height>
     </rect>
    </property>
