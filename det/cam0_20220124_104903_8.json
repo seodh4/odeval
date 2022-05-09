@@ -1,0 +1,336 @@
+{
+	"version": "1.0.1",
+	"flags": {},
+	"shapes": [
+		{
+			"label": "CAP",
+			"points": [
+				[
+					295.0,
+					143.0
+				],
+				[
+					345.0,
+					176.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CAP",
+			"points": [
+				[
+					357.0,
+					316.0
+				],
+				[
+					414.0,
+					343.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CAS",
+			"points": [
+				[
+					371.0,
+					399.0
+				],
+				[
+					424.0,
+					448.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					179.0,
+					292.0
+				],
+				[
+					288.0,
+					363.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					362.0,
+					347.0
+				],
+				[
+					422.0,
+					401.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					371.0,
+					457.0
+				],
+				[
+					409.0,
+					499.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					416.0,
+					443.0
+				],
+				[
+					462.0,
+					486.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					417.0,
+					324.0
+				],
+				[
+					481.0,
+					383.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "DDS",
+			"points": [
+				[
+					208.0,
+					367.0
+				],
+				[
+					235.0,
+					393.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "DDS",
+			"points": [
+				[
+					351.004016064257,
+					442.9718875502008
+				],
+				[
+					372.28915662650604,
+					465.4618473895582
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					228.0,
+					514.0
+				],
+				[
+					296.0,
+					552.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					292.0,
+					294.0
+				],
+				[
+					351.0,
+					348.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					306.0,
+					524.0
+				],
+				[
+					365.0,
+					554.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					515.0,
+					411.0
+				],
+				[
+					604.0,
+					499.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					548.0,
+					331.0
+				],
+				[
+					589.0,
+					388.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					587.0,
+					239.0
+				],
+				[
+					646.0,
+					308.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICT",
+			"points": [
+				[
+					384.0,
+					517.0
+				],
+				[
+					416.0,
+					553.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICT",
+			"points": [
+				[
+					502.0,
+					339.0
+				],
+				[
+					539.0,
+					374.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "LCS",
+			"points": [
+				[
+					232.0,
+					193.0
+				],
+				[
+					356.0,
+					257.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "RES",
+			"points": [
+				[
+					228.0,
+					139.0
+				],
+				[
+					273.0,
+					175.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "TAA",
+			"points": [
+				[
+					253.0,
+					252.0
+				],
+				[
+					356.0,
+					288.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "TRL",
+			"points": [
+				[
+					671.0,
+					159.0
+				],
+				[
+					719.0,
+					234.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "TRS",
+			"points": [
+				[
+					238.0,
+					361.0
+				],
+				[
+					343.0,
+					513.0
+				]
+			],
+			"shape_type": "rectangle"
+		}
+	],
+	"imageTitle": "cam0_20220124_104903_8.jpg",
+	"imageData": null,
+	"imageHeight": 720,
+	"imageWidth": 1280,
+	"boardData": "IMT",
+	"boardNameData": "board133",
+	"boardCodeData": "133",
+	"pcbNameData": "PCB180047B"
+}

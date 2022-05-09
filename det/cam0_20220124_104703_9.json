@@ -1,0 +1,336 @@
+{
+	"version": "1.0.1",
+	"flags": {},
+	"shapes": [
+		{
+			"label": "CAP",
+			"points": [
+				[
+					294.0,
+					156.0
+				],
+				[
+					344.0,
+					189.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CAP",
+			"points": [
+				[
+					354.0,
+					325.0
+				],
+				[
+					411.0,
+					352.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CAS",
+			"points": [
+				[
+					369.0,
+					409.0
+				],
+				[
+					422.0,
+					458.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					178.0,
+					303.0
+				],
+				[
+					287.0,
+					374.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					359.0,
+					357.0
+				],
+				[
+					419.0,
+					411.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					363.0,
+					469.0
+				],
+				[
+					401.0,
+					511.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					404.4137931034483,
+					455.0
+				],
+				[
+					453.75862068965523,
+					500.48275862068965
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					415.0,
+					333.0
+				],
+				[
+					479.0,
+					392.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "DDS",
+			"points": [
+				[
+					212.3793103448276,
+					373.7586206896552
+				],
+				[
+					233.99999999999997,
+					400.27586206896564
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "DDS",
+			"points": [
+				[
+					336.0,
+					441.0
+				],
+				[
+					366.0,
+					469.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					226.0,
+					524.0
+				],
+				[
+					294.0,
+					562.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					290.0,
+					304.0
+				],
+				[
+					349.0,
+					358.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					304.0,
+					534.0
+				],
+				[
+					363.0,
+					564.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					513.0,
+					420.0
+				],
+				[
+					602.0,
+					508.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					546.0,
+					340.0
+				],
+				[
+					587.0,
+					397.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					585.0,
+					248.0
+				],
+				[
+					644.0,
+					317.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICT",
+			"points": [
+				[
+					382.0,
+					526.0
+				],
+				[
+					414.0,
+					562.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICT",
+			"points": [
+				[
+					500.0,
+					348.0
+				],
+				[
+					537.0,
+					383.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "LCS",
+			"points": [
+				[
+					224.0,
+					198.0
+				],
+				[
+					348.0,
+					262.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "RES",
+			"points": [
+				[
+					226.0,
+					152.0
+				],
+				[
+					271.0,
+					188.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "TAA",
+			"points": [
+				[
+					255.0,
+					262.0
+				],
+				[
+					358.0,
+					298.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "TRL",
+			"points": [
+				[
+					668.0,
+					167.0
+				],
+				[
+					716.0,
+					242.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "TRS",
+			"points": [
+				[
+					235.0,
+					372.0
+				],
+				[
+					340.0,
+					524.0
+				]
+			],
+			"shape_type": "rectangle"
+		}
+	],
+	"imageTitle": "cam0_20220124_104703_9.jpg",
+	"imageData": null,
+	"imageHeight": 720,
+	"imageWidth": 1280,
+	"boardData": "IMT",
+	"boardNameData": "board133",
+	"boardCodeData": "133",
+	"pcbNameData": "PCB180047B"
+}

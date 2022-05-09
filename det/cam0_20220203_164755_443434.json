@@ -1,0 +1,414 @@
+{
+  "version": "4.5.13",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "CAP",
+      "points": [
+        [
+          225.00032000000002,
+          201.00024000000002
+        ],
+        [
+          261.00032,
+          293.0004
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "CAP",
+      "points": [
+        [
+          528.99936,
+          280.00033200000007
+        ],
+        [
+          562.99936,
+          349.0003080000001
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "CAP",
+      "points": [
+        [
+          571.99968,
+          295.000236
+        ],
+        [
+          605.99968,
+          359.00024399999995
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "RES",
+      "points": [
+        [
+          629.9996800000001,
+          377.000244
+        ],
+        [
+          675.9996800000001,
+          430.00023600000003
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "LPS",
+      "points": [
+        [
+          667.0001920000001,
+          183.99996
+        ],
+        [
+          744.0001280000001,
+          270.99971999999997
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "CAP",
+      "points": [
+        [
+          445.00064,
+          221.00032800000002
+        ],
+        [
+          519.00064,
+          255.000312
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "CAP",
+      "points": [
+        [
+          377.99980800000003,
+          322.99966799999993
+        ],
+        [
+          450.99987200000004,
+          352.9996919999999
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "ICD",
+      "points": [
+        [
+          603.9998079999999,
+          307.00033199999996
+        ],
+        [
+          632.9998719999999,
+          358.00030799999996
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "CES",
+      "points": [
+        [
+          670.000192,
+          562.99968
+        ],
+        [
+          717.000128,
+          616.99968
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "TAB",
+      "points": [
+        [
+          200.99968,
+          373.99993200000006
+        ],
+        [
+          348.0,
+          433.99990800000006
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "FES",
+      "points": [
+        [
+          388.999552,
+          596.00016
+        ],
+        [
+          465.999488,
+          672.9998400000001
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "CES",
+      "points": [
+        [
+          637.0003200000001,
+          508.00032
+        ],
+        [
+          673.0003200000001,
+          553.00032
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "CPP",
+      "points": [
+        [
+          196.0,
+          437.00032799999997
+        ],
+        [
+          378.00064,
+          480.00031199999995
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "CES",
+      "points": [
+        [
+          376.99948800000004,
+          350.000316
+        ],
+        [
+          429.99955200000005,
+          387.000324
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "ICD",
+      "points": [
+        [
+          632.0005120000001,
+          306.000324
+        ],
+        [
+          665.0004480000001,
+          359.000316
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "CES",
+      "points": [
+        [
+          581.99936,
+          169.99992
+        ],
+        [
+          669.99936,
+          262.00008
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "LCS",
+      "points": [
+        [
+          259.00032,
+          173.99952
+        ],
+        [
+          427.00032,
+          294.99984
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "DDL",
+      "points": [
+        [
+          406.9998080000001,
+          392.00004
+        ],
+        [
+          445.9998720000001,
+          498.99996
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "TAA",
+      "points": [
+        [
+          241.00032,
+          317.99966399999994
+        ],
+        [
+          378.0,
+          357.9996959999999
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "FES",
+      "points": [
+        [
+          538.000128,
+          575.00028
+        ],
+        [
+          617.000192,
+          675.00036
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "CES",
+      "points": [
+        [
+          773.00064,
+          251.99999999999997
+        ],
+        [
+          887.00064,
+          339.99983999999995
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "CES",
+      "points": [
+        [
+          741.999552,
+          176.00039999999998
+        ],
+        [
+          840.999488,
+          253.00007999999997
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "TRS",
+      "points": [
+        [
+          136.00000000000003,
+          486.00000000000006
+        ],
+        [
+          393.99936,
+          652.0003200000001
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "CES",
+      "points": [
+        [
+          440.99967999999996,
+          363.99996
+        ],
+        [
+          629.99936,
+          558.99972
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "TRS",
+      "points": [
+        [
+          710.0,
+          362.99951999999996
+        ],
+        [
+          883.99936,
+          627.99984
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imageTitle": "cam0_20220203_164755_443434.jpg",
+  "imageData": null,
+  "imageHeight": 720,
+  "imageWidth": 1280,
+  "boardData": "IMT",
+  "boardNameData": "board122",
+  "boardCodeData": "122",
+  "pcbNameData": "PCB180174F"
+}

@@ -1,0 +1,252 @@
+{
+	"version": "1.0.1",
+	"flags": {},
+	"shapes": [
+		{
+			"label": "CAP",
+			"points": [
+				[
+					571.0,
+					243.0
+				],
+				[
+					603.0,
+					295.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CAP",
+			"points": [
+				[
+					492.0,
+					565.0
+				],
+				[
+					567.0,
+					610.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CCS",
+			"points": [
+				[
+					214.0,
+					387.0
+				],
+				[
+					274.0,
+					473.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					335.0,
+					217.0
+				],
+				[
+					405.0,
+					270.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					597.0,
+					178.0
+				],
+				[
+					658.0,
+					250.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					658.0,
+					177.0
+				],
+				[
+					733.0,
+					256.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					737.0,
+					220.0
+				],
+				[
+					819.0,
+					286.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					736.0,
+					298.0
+				],
+				[
+					817.0,
+					368.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					720.0,
+					466.0
+				],
+				[
+					831.170731707317,
+					592.7073170731707
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CES",
+			"points": [
+				[
+					182.0,
+					488.0
+				],
+				[
+					324.0,
+					619.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "CPP",
+			"points": [
+				[
+					304.0,
+					393.0
+				],
+				[
+					413.0,
+					428.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "FES",
+			"points": [
+				[
+					376.0,
+					574.0
+				],
+				[
+					457.0,
+					640.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "FES",
+			"points": [
+				[
+					226.0,
+					585.0
+				],
+				[
+					319.0,
+					643.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					408.0,
+					185.0
+				],
+				[
+					465.0,
+					214.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "ICD",
+			"points": [
+				[
+					410.0,
+					222.0
+				],
+				[
+					458.0,
+					255.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "LPS",
+			"points": [
+				[
+					737.0,
+					117.0
+				],
+				[
+					829.0,
+					211.0
+				]
+			],
+			"shape_type": "rectangle"
+		},
+		{
+			"label": "TRL",
+			"points": [
+				[
+					415.0,
+					302.0
+				],
+				[
+					706.0,
+					558.0
+				]
+			],
+			"shape_type": "rectangle"
+		}
+	],
+	"imageTitle": "cam0_20220119_083318_0.jpg",
+	"imageData": null,
+	"imageHeight": 720,
+	"imageWidth": 1280,
+	"boardData": "IMT",
+	"boardNameData": "board119",
+	"boardCodeData": "119",
+	"pcbNameData": "PCB170747B"
+}

@@ -1,6 +1,6 @@
 import numpy as np
 import os
-
+import json
 
 class Fileio:
 
@@ -8,7 +8,25 @@ class Fileio:
         super().__init__()
 
     def read_file(self, path):
-        box = []
+        with open(path, 'r') as f:
+            json_data = json.load(f)
+
+            dst_shapes=[]
+            for shape in json_data['shapes']:
+                dst_label = shape['label']
+                points = shape['points']
+                
+                x1 = int(points[0][0])
+                y1 = int(points[0][1])
+                x2 = int(points[1][0])
+                y2 = int(points[1][1])
+
+
+                dst_shape = [dst_label,x1,y1,x2,y2]
+                dst_shapes.append(dst_shape)
+        return dst_shapes
+
+
         bndBoxFile = open(path, 'r')
         for bndBox in bndBoxFile:
             x1, y1, x2, y2, label= bndBox.strip().split(',')
