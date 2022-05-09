@@ -168,6 +168,12 @@ class WindowClass(QMainWindow, form_class) :
         print(fn_list)
         print(overlab_list)
 
+
+        print(len(tp_list)+ len(overlab_list) + len(fp_list)) # det
+
+        print(len(fn_list) +len(tp_list) + (len(overlab_list)/2)) #gt
+
+
         # print(e2e_overlab_list)
 
 
